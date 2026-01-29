@@ -65,6 +65,8 @@ Tell Codex:
 Fetch and follow instructions from https://raw.githubusercontent.com/obra/superpowers/refs/heads/main/.codex/INSTALL.md
 ```
 
+Codex defaults to a **hybrid** workflow: subagents are for review/diagnostics only, and the main agent owns edits/tests/commits.
+
 **Detailed docs:** [docs/README.codex.md](docs/README.codex.md)
 
 ### OpenCode
