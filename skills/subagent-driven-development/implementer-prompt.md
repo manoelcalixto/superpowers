@@ -26,6 +26,13 @@ Task tool (general-purpose):
 
     **Ask them now.** Raise any concerns before starting work.
 
+    ## Guardrails (Codex Hybrid)
+
+    - Do not create or remove worktrees
+    - Do not finish a development branch
+    - Do not spawn other agents
+    - Do not edit AGENTS.md or global config
+
     ## Your Job
 
     Once you're clear on requirements:

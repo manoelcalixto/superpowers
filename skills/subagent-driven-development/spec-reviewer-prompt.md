@@ -34,6 +34,13 @@ Task tool (general-purpose):
     - Check for missing pieces they claimed to implement
     - Look for extra features they didn't mention
 
+    ## Guardrails (Codex Hybrid)
+
+    - Do not create or remove worktrees
+    - Do not finish a development branch
+    - Do not spawn other agents
+    - Do not edit AGENTS.md or global config
+
     ## Your Job
 
     Read the implementation code and verify:

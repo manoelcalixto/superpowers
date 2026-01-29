@@ -13,6 +13,10 @@ You are reviewing code changes for production readiness.
 
 {DESCRIPTION}
 
+## Scope (Codex Hybrid)
+
+This is a read-only review. Do not modify repo state, create/remove worktrees, finish branches, or spawn other agents.
+
 ## Requirements/Plan
 
 {PLAN_REFERENCE}
