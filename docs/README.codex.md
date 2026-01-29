@@ -111,6 +111,18 @@ Skills written for Claude Code are adapted for Codex with these mappings:
 - `Skill` tool → `~/.codex/superpowers/.codex/superpowers-codex use-skill`
 - File operations → Native Codex tools
 
+## Codex Hybrid Multi-Agent Mode
+
+Superpowers defaults to a **hybrid** workflow on Codex: subagents are used only for review or diagnostics. The main agent owns all edits, tests, and commits.
+
+**Guardrails for Codex subagents:**
+- Do not create or remove worktrees
+- Do not finish a development branch
+- Do not spawn other subagents
+- Do not edit AGENTS.md or global config
+
+If subagents are unavailable, run the same reviews manually using the provided templates.
+
 ## Updating
 
 ```bash
