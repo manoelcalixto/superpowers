@@ -89,6 +89,10 @@ You: [Fix progress indicators]
 - Review before merge
 - Review when stuck
 
+## Codex Fallback
+
+If Codex subagents are unavailable, run the review manually using the checklist in `requesting-code-review/code-reviewer.md` and the git diff range.
+
 ## Red Flags
 
 **Never:**
