@@ -67,6 +67,7 @@ function runFindSkills() {
     console.log('  Personal skills override superpowers skills when names match.');
     console.log('');
     console.log('Note: All skills are disclosed at session start via bootstrap.');
+    console.log('Note: Codex hybrid mode defaults to review/diagnostic subagents only.');
 }
 
 function runBootstrap() {
@@ -99,6 +100,11 @@ function runBootstrap() {
         console.log('---');
         console.log('');
     }
+
+    console.log('## Codex Hybrid Mode (default)');
+    console.log('');
+    console.log('Subagents are for review/diagnostics only. The main agent owns edits, tests, and commits.');
+    console.log('');
 
     // Run find-skills to show available skills
     console.log('## Available Skills:');
