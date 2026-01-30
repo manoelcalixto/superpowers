@@ -9,7 +9,7 @@ You have superpowers.
 **Tool Mapping for Codex:**
 When skills reference tools you don't have, substitute your equivalent tools:
 - `TodoWrite` → `update_plan` (your planning/task tracking tool)
-- `Task` tool with subagents → Tell the user that subagents aren't available in Codex yet and you'll do the work the subagent would do
+- `Task` tool with subagents → Use Codex collaboration tools if available (`spawn_agent`, `send_input`, `wait`, `close_agent`); otherwise do the work directly
 - `Skill` tool → `~/.codex/superpowers/.codex/superpowers-codex use-skill` command (already available)
 - `Read`, `Write`, `Edit`, `Bash` → Use your native tools with similar functions
 
