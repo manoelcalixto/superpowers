@@ -9,14 +9,9 @@ You have superpowers.
 **Tool Mapping for Codex:**
 When skills reference tools you don't have, substitute your equivalent tools:
 - `TodoWrite` → `update_plan` (your planning/task tracking tool)
-- `Task` tool with subagents → Use Codex collaboration tools if available (`spawn_agent`, `send_input`, `wait`, `close_agent`); otherwise do the work directly
+- `Task` tool with subagents → Tell the user that subagents aren't available in Codex yet and you'll do the work the subagent would do
 - `Skill` tool → `~/.codex/superpowers/.codex/superpowers-codex use-skill` command (already available)
 - `Read`, `Write`, `Edit`, `Bash` → Use your native tools with similar functions
-
-**Codex Hybrid Mode (default):**
-Use subagents only for review/diagnostics. The main agent owns edits, tests, and commits.
-Subagents must not create/remove worktrees, finish branches, spawn other agents, or edit AGENTS.md/global config.
-If subagents are unavailable, run the same reviews manually.
 
 **Skills naming:**
 - Superpowers skills: `superpowers:skill-name` (from ~/.codex/superpowers/skills/)

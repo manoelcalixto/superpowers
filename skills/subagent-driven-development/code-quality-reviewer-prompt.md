@@ -6,12 +6,6 @@ Use this template when dispatching a code quality reviewer subagent.
 
 **Only dispatch after spec compliance review passes.**
 
-**Guardrails (Codex Hybrid):**
-- Do not create or remove worktrees
-- Do not finish a development branch
-- Do not spawn other agents
-- Do not edit AGENTS.md or global config
-
 ```
 Task tool (superpowers:code-reviewer):
   Use template at requesting-code-review/code-reviewer.md

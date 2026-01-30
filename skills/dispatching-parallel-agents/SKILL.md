@@ -42,10 +42,6 @@ digraph when_to_use {
 - Need to understand full system state
 - Agents would interfere with each other
 
-## Codex Note
-
-If Codex collaboration tools are available, use `spawn_agent` and `wait` for parallel investigations. Keep subagent scope strict and read-only (no repo changes, no worktrees, no nested agents).
-
 ## The Pattern
 
 ### 1. Identify Independent Domains

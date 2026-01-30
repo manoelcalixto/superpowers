@@ -25,12 +25,6 @@ Quick setup to enable superpowers skills in Codex.
    </EXTREMELY_IMPORTANT>
    ```
 
-   **Hybrid Mode Guidance (Codex):**
-   - Default to hybrid: subagents only for review/diagnostics.
-   - Main agent owns edits, tests, and commits.
-   - Subagents must not create/remove worktrees, finish branches, or spawn other agents.
-   - If subagents are unavailable, run reviews manually with the templates.
-
 ## Verification
 
 Test the installation:

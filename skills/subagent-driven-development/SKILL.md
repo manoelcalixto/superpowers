@@ -9,10 +9,6 @@ Execute plan by dispatching fresh subagent per task, with two-stage review after
 
 **Core principle:** Fresh subagent per task + two-stage review (spec then quality) = high quality, fast iteration
 
-## Codex Hybrid Mode (default)
-
-When running in Codex, **do not** dispatch implementer subagents. Use subagents only for review or diagnostics, and keep implementation in the main agent. If subagents are unavailable, run the same reviews manually using the templates.
-
 ## When to Use
 
 ```dot
